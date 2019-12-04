@@ -1,0 +1,13 @@
+.nav {
+  grid-area: n;
+  background-color: lightblue;
+}
+
+/* delete link style in sidebar */
+.item {
+  color: white;
+}
+
+.item.active {
+  color: gold;
+}

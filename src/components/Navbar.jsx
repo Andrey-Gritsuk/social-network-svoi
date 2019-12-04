@@ -1,22 +1,23 @@
 import React from "react";
+import classMod from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav className="nav">
-      <div>
-        <a href="#q1">Profile</a>
+    <nav className={classMod.nav}>
+      <div className={`${classMod.item} ${classMod.active}`}>
+        <a>Profile</a>
       </div>
-      <div>
-        <a href="#q2">Messages</a>
+      <div className={classMod.item}>
+        <a>Messagese</a>
       </div>
-      <div>
-        <a href="#q3">News</a>
+      <div className={classMod.item}>
+        <a>News</a>
       </div>
-      <div>
-        <a href="#q4">Music</a>
+      <div className={classMod.item}>
+        <a>Music</a>
       </div>
-      <div>
-        <a href="#q5">Settings</a>
+      <div className={classMod.item}>
+        <a>Settings</a>
       </div>
     </nav>
   );
