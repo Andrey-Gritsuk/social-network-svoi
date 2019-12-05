@@ -8,7 +8,7 @@ const Navbar = () => {
         <a>Profile</a>
       </div>
       <div className={classMod.item}>
-        <a>Messagese</a>
+        <a>Messages</a>
       </div>
       <div className={classMod.item}>
         <a>News</a>
