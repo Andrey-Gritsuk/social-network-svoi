@@ -4,7 +4,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
   return (
-    <div className={classMod.content}>
+    <div>
       <img
         src="https://foter.com/photos/394/yellow-taxi-on-city-street.jpg"
         alt="account wallpaper"

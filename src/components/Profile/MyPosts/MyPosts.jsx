@@ -11,8 +11,8 @@ const MyPosts = () => {
         <button>Add post</button>
       </div>
       <div className={classMod.posts}>
-        <MyPost message="Hello, how are you?" likeCounts="15" />
-        <MyPost message="I'm happy!!!!!" likeCounts="20" />
+        <MyPost message="Hello, how are you?" likesCount="15" />
+        <MyPost message="I'm happy!!!!!" likesCount="20" />
       </div>
     </div>
   );
