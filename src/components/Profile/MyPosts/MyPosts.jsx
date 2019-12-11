@@ -4,10 +4,12 @@ import MyPost from "./Post/MyPost";
 
 const MyPosts = () => {
   return (
-    <div>
-      My posts
+    <div className={classMod.postsBlock}>
+      <h3> My posts </h3>
       <div>
-        <textarea name="" id="" cols="30" rows="10" />
+        <div>
+          <textarea name="" id="" cols="30" rows="10" />
+        </div>
         <button>Add post</button>
       </div>
       <div className={classMod.posts}>

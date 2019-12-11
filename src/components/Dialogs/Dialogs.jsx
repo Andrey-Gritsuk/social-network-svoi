@@ -1,20 +1,24 @@
 import React from "react";
 import classMod from "./Dialogs.module.css";
+import DialogItem from "./Dialog/Dialog"
+import Message from "./Message/Message";
 
 const Dialogs = props => {
   return (
     <div className={classMod.dialogs}>
       <div className={classMod.dialogsItems}>
-        <div className={classMod.dialog + " "+ classMod.active}>Max</div>
-        <div className={classMod.dialog}>Andrei</div>
-        <div className={classMod.dialog}>Vlad</div>
-        <div className={classMod.dialog}>Alex</div>
-        <div className={classMod.dialog}>Igor</div>
+        <DialogItem name="Max" id="1" />
+        <DialogItem name="Nina" id="2" />
+        <DialogItem name="Igor" id="3" />
+        <DialogItem name="Alex" id="4" />
+        <DialogItem name="Vlad" id="5" />
+        <DialogItem name="Andrei" id="6" />
       </div>
       <div className={classMod.messages}>
-        <div className={classMod.message}>You're beautiful!!!!!!!!!!</div>
-        <div className={classMod.message}>It's my life</div>
-        <div className={classMod.message}>Close the dore, please!!</div>
+        <Message message="Hello, country" />
+        <Message message="let's go!!!!!!!!" />
+        <Message message="I'm happy!!!!!!" />
+        <Message message="Goodbye." />
       </div>
     </div>
   );

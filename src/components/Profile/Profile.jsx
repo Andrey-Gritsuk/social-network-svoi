@@ -1,17 +1,12 @@
 import React from "react";
 import classMod from "./Profile.module.css";
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
   return (
     <div>
-      <img
-        src="https://foter.com/photos/394/yellow-taxi-on-city-street.jpg"
-        alt="account wallpaper"
-      />
-      <div>
-        <div> Ava +description</div>
-      </div>
+      <ProfileInfo />
       <MyPosts />
     </div>
   );
